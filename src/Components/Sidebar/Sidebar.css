@@ -1,0 +1,138 @@
+/* ===== Sidebar Container ===== */
+.sidebar-container {
+  width: 270px;
+  height: 100vh;
+  background-color: #0b2447; /* deep navy blue */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 1rem 0;
+}
+
+/* ===== Header Section ===== */
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 1.2rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.sidebar-avatar {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background: #fff;
+  padding: 0;
+}
+
+.sidebar-username {
+  font-size: 1.35rem;
+  font-weight: 400;
+  margin: 0 0 1px;
+}
+
+.sidebar-role {
+  font-size: 0.90rem;
+  color: #fff;
+  margin: 0;
+}
+
+/* ===== Menu Section ===== */
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-top: 10px;
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  padding: 11px 20px;
+  color: #e2e8f0;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.10rem;
+  transition: all 0.2s ease;
+  border-radius: 12px;
+  margin: 4px 10px;
+}
+
+.sidebar-link:hover {
+  background-color: #0E396E;
+  color: #fff;
+  text-decoration: none;
+}
+
+.sidebar-link.active {
+  background-color: #1A73E8; /* bright blue */
+  color: #fff;
+}
+
+.sidebar-icon {
+  font-size: 1.2rem;
+  margin-right: 8px;
+}
+
+.sidebar-icon svg {
+  font-size: 22px;
+  position: relative;
+  top: -1px;
+}
+
+/* ===== Footer Section ===== */
+.sidebar-footer {
+  padding: 1rem;
+  border-top: 0;
+}
+
+.logout-btn {
+  display: flex;
+  align-items: center;
+  background-color: #0E396E;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 16px;
+  width: 100%;
+  font-size: 1.10rem;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  /* height: 80px; */
+  border:1px solid #4A6B92;
+  margin: 10px 0px;
+}
+
+.logout-btn:hover {
+  background-color: #0A56BA;
+}
+
+.logout-icon {
+ /* margin-right: 10px;*/
+  font-size: 1rem;
+  
+}
+
+.sidebar-footer-text {
+  font-size: 0.85rem; 
+  text-align: center;
+  margin-top: 25px;
+  color: #8592A2;
+}
+
+@media (max-width: 1024px) {   
+  .sidebar-container {   
+    width: auto;     
+  }
+  .titlesec {
+    text-align: center;
+  }
+}

@@ -1,0 +1,123 @@
+/* LoginPage.css */
+.Login_BgPage {
+  background-image: url("../../assets/delopt_hub_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login_Container {
+  width: 480px;
+  /* height: 417px; */
+  background-color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 45px 40px 30px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.03) !important;
+  -moz-box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.03) !important;
+  box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.03) !important;
+}
+.OccupancyHeader {
+  position: "absolute";
+  left: "50%";
+  top: "50%";
+  transform: "translate(-50%, -50%)";
+}
+.OccupancyHeader {
+  /* width: 412px; */
+  height: 43px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button.btn.btn-primary.lgnsbbtn {
+  background: #1A73E8;
+  width: 100%;
+  /* margin: 10px 20px; */
+  border-radius: 10px;
+  color:#fff;
+  font-size: 15px;
+}
+button.btn.btn-primary.lgnsbbtn:hover {
+  background: #174692;
+  color: #fff;
+}
+.FormSection {
+  margin: 24px 0px;
+}
+.form-control.textfield {
+  border-radius: 10px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 500;
+  border: 1px solid #BFBFBF;
+}
+label.addExpenseLabel {
+  font-size: 13px;
+}
+label.addExpenseLabel {
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: inter;
+  line-height: 16px;
+  color: #181D27;
+}
+.LogcopyrightSec {
+  display: flex;
+  margin: 38px 20px 0px 20px;
+  text-align: center;
+  justify-content: center;
+}
+p.cplabel,
+p.splabel {
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-right: 5px;
+  color: #9496a1;
+}
+.LogoSec {
+  display: flex;
+  margin: 0px 20px 10px 20px;
+  text-align: center;
+  justify-content: center;
+}
+img.c_logo {
+  margin: 0px 2px;
+  vertical-align: top;
+}
+p.cplabel, p.splabel {
+  font-weight: 400;
+}
+
+.LogcopyrightSec .cplabel {
+  margin-top: 5px;
+}
+.login_Container .panel-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  color: #0B2545;
+}
+.password-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.password-toggle-icon {
+  position: absolute;
+  right: 10px;
+  font-size: 1.2rem;
+  color: #333;
+}
